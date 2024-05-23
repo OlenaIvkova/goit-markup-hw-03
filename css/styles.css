@@ -310,7 +310,7 @@ a {
     color: #2e2f42;
     text-align: left;
     padding: 32px 0 64px 16px;
-
+    margin-bottom: 8px;
 }
 
 .our-portfolio-image {
@@ -339,7 +339,6 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 /* footer */
@@ -348,7 +347,6 @@ a {
     background: #2e2f42;
     /* width: 1158px; */
     flex-direction: column;
-    /* display: flex; */
     width: 264px;
     padding: 100px 0;
 }
