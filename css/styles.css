@@ -188,20 +188,12 @@ a {
 }
 
 .features-item {
-    padding-top: 115px;
-    padding-bottom: 116px;
-    padding-left: 156px;
-    padding-right: 156px;
-    /* margin-left: 156px;
-margin-right: 156px; */
+    width: calc((100% - 72px) / 4);
 }
 
 .features-list {
-    list-style: none;
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
-    align-items: center;
 }
 
 /* Our Team */
@@ -214,6 +206,22 @@ margin-right: 156px; */
     margin-left: 156px;
     text-align: center;
     padding: 120px 0;
+}
+
+.mark {
+    padding: 32px 0;
+}
+
+.tom {
+    padding: 32px 0;
+}
+
+.camila {
+    padding: 32px 0;
+}
+
+.daniel {
+    padding: 32px 0;
 }
 
 .our-team-title {
@@ -267,12 +275,11 @@ margin-right: 156px; */
 }
 
 .our-team-list {
-    list-style: none;
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
+    background: #fff; */
     border-radius: 0 0 4px 4px;
 }
 
@@ -282,6 +289,8 @@ margin-right: 156px; */
     max-width: 1140px;
     margin: 120px 156px 120px 156px;
     text-align: center;
+    padding-top: 120px; 
+    padding-bottom: 120px; 
 }
 
 .our-portfolio-title {
@@ -293,15 +302,15 @@ margin-right: 156px; */
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
-    margin: 120px;
+    margin-bottom: 72px;
 }
 
 .our-portfolio-list {
-    list-style: none;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    align-content: center;
+    background: #fff;
+    row-gap: 48px
 }
 
 .our-portfolio-subtitle {
@@ -334,12 +343,50 @@ margin-right: 156px; */
 
 .our-portfolio-item {
     text-align: center;
-    width: calc((100%-96px)/6);
+    width: calc((100% - 48px) / 3);
     border-radius: 4px;
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
+}
 
+.banking {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.payment {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.service {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.illustrations {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.courses {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 /* footer */
