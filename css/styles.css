@@ -208,19 +208,7 @@ a {
     padding: 120px 0;
 }
 
-.mark {
-    padding: 32px 0;
-}
-
-.tom {
-    padding: 32px 0;
-}
-
-.camila {
-    padding: 32px 0;
-}
-
-.daniel {
+.worker {
     padding: 32px 0;
 }
 
@@ -347,42 +335,7 @@ a {
     border-radius: 4px;
 }
 
-.banking {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-}
-
-.payment {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-}
-
-.app {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-}
-
-.service {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-}
-
-.illustrations {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-}
-
-.courses {
+.portfolio {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
