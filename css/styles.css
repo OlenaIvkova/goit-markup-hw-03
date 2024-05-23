@@ -107,11 +107,7 @@ a {
 
 .main-title {
     background-color: #2e2f42;
-    display: flex;
-    /* align-items: center; */
-    flex-direction: column;
     padding: 188px 0;
-    width: 1158px;
 }
 
 .title {
@@ -122,7 +118,9 @@ a {
     color: #fff;
     text-align: center;
     max-width: 496px;
-    padding-bottom: 45px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button {
@@ -140,6 +138,7 @@ a {
     min-width: 169px;
     height: 56px;
     border: none;
+    margin: auto;
 }
 
 .button:hover,
@@ -164,7 +163,6 @@ a {
 }
 
 .features {
-    max-width: 1128px;
     padding: 120px 0;
 }
 
@@ -200,11 +198,6 @@ a {
 
 .our-team {
     background: #f4f4fd;
-    width: 1440px;
-    background: #f4f4fd;
-    margin-right: 156px;
-    margin-left: 156px;
-    text-align: center;
     padding: 120px 0;
 }
 
@@ -221,8 +214,6 @@ a {
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px;
     margin-bottom: 72px;
 }
 
@@ -242,8 +233,6 @@ a {
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: center;
-    /* padding: 32px 49px 8px 49px; */
-    padding: 32px 0;
 }
 
 .our-team-image {
@@ -258,7 +247,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 0 52px 32px 52px;
     text-align: center;
 }
 
@@ -274,9 +262,6 @@ a {
 /* Our Portfolio */
 
 .our-portfolio {
-    max-width: 1140px;
-    margin: 120px 156px 120px 156px;
-    text-align: center;
     padding-top: 120px; 
     padding-bottom: 120px; 
 }
@@ -309,7 +294,6 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: left;
-    padding: 32px 0 64px 16px;
     margin-bottom: 8px;
 }
 
@@ -326,7 +310,6 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: left;
-    padding: 0 0 32px 16px;
 }
 
 .our-portfolio-item {
@@ -345,9 +328,6 @@ a {
 
 .footer {
     background: #2e2f42;
-    /* width: 1158px; */
-    flex-direction: column;
-    width: 264px;
     padding: 100px 0;
 }
 
@@ -367,4 +347,5 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
